@@ -242,7 +242,7 @@ const PostJobs = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/v1/job/post",
+        "https://jobfinder-9slc.onrender.com/api/v1/job/post",
         requestData,
         {
           withCredentials: true,
